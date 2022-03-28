@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+	<script src="main.js" defer></script>
+	<title>Shopping Cart</title>
+</head>
+<body>
+<div class = "container-fluid"> 
+	<div class="nav-wrapper">
+		<div class="left-side">
+				<div class="nav-link-wrapper">
+					<a href="index.html"> Home</a>
+				</div>    
+				<div class="nav-link-wrapper">
+					<a href="about.html"> About</a>
+				</div>
+				<div class="nav-link-wrapper">
+					<a href="contact.html">Contact</a>
+				</div>
+		</div>    
+	<div class="right-side"> 
+		<h1>Basket Case Farmer's Market</h1>
+	</div>
+			
+	</div>
+	<div id="header">
+		<h2>Pickup Only</h2>
+	<div class="clearfloat"></div>
+	</div> <!-- #header -->
+
+	<div id="container">
+		<div class ="row1">
+			<div class="card" style="width: 18rem;">
+				<div class="card-body">
+				  <p class="card-text">Apples - $<span id="aplCost">2.00</span></p>
+				</div>
+				<img class="card-img-top" id="apple" src="img/pomme-large.jpg" alt="Card image cap">
+			</div>
+			<div class="card" style="width: 18rem;">
+				<div class="card-body">
+					<p class="card-text">Oranges - $<span id="orangeCost">1.00</span></p>
+				</div>
+					<img class="card-img-top" id="orange"src="img/orange-web.jpg"
+					 alt="Card image cap">
+			</div>
+			<div class="card" style="width: 18rem;">
+				<div class="card-body">
+					<p class="card-text">Grapes - $<span id="grapeCost">2.00</span></p>
+				</div>
+					<img class="card-img-top" id="grapes" src="img/Grapes.jpg" alt="Card image cap">
+			</div>
+			<div class="card" style="width: 18rem;">
+				<div class="card-body">
+					<p class="card-text">Bananas - $<span id="Bancost">1.00</span></p>
+					<img class="card-img-top" id="bananas" src="img/Bananas.jpg" alt="Card image cap">
+				</div>		
+			</div>
+		</div> <!--.row1 -->
+
+		<div class ="row2">
+			<div class="card" style="width: 18rem;">
+				<div class="card-body">
+				  <p class="card-text">Avacados - $<span id="avoCost">1.00</span></p>
+				 
+				<img class="card-img-top" id="avo" src="img/Avacado.jpg" alt="Card image cap">
+				</div>
+			</div>
+			<div class="card" style="width: 18rem;">
+				<div class="card-body">
+					<p class="card-text">Tomatoes - $<span id="tomatoCost">2.00</span></p>
+			</div>
+					<img class="card-img-top" id="tomato" src="img/tomato.jpg" alt="Card image cap">
+			</div>
+			<div class="card" style="width: 18rem;">
+				<div class="card-body">
+					<p class="card-text">Corn - $<span id="cornCost">1.00</span></p>
+					
+			</div>
+					<img class="card-img-top" id="crn" src="img/Corn.jpg" alt="Card image cap">
+			</div>
+			<div class="card" style="width: 18rem;">
+				<div class="card-body">
+					<p class="card-text">Carrots - $<span id="carrotCost">1.00</span></p>
+					
+			</div>
+	<img class="card-img-top" id="carrot" src="img/carrots-thumb-1.jpg.webp" alt="Card image cap">
+			</div>	
+		</div> <!--.row2 -->
+		<div class="row3">
+			<h3 class="subtotal">Cart Subtotal: $<span id="cost">0</span></h3>
+		</div> <!-- .row3 -->
+
+	<div class="clearfloat"></div>	
+	</div> <!-- #container -->
+</div>
+	<div id="footer">
+		<h4>footer here</h4>
+	<div class="clearfloat"></div>
+	</div> <!-- #footer -->
+
+
+
+	
+
+	<script> 
+		/* Workflow
+			1. Make variables for cart subtotal and each of the plant prices using parseInt
+			2. When user clicks on a plant, the price in the cart subtotal should update (increase by the price of the plant added)
+			3. Display updated price to user
+			4. Save the current subtotal
+			5. Increment by price of next plant selected
+		*/
+
+		
+
+		//Click = Money
+		
+	</script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
